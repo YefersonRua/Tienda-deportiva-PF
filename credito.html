@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/77a94bc87e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="credito.css">
+    <title>SISTEMA DE CREDITO</title>
+</head>
+<body>
+    <div class="cuerpo">
+        <h2>Sistema de credito</h2>
+        <form action="" method="POST">
+            <h4>Cuenta</h4>
+            <div class="input_grupo">
+                <div class="input_box">
+                    <input type="text" placeholder="Nombre Completo" required class="nombre">
+                    <i class="fa-solid fa-user icono"></i>
+                </div>
+            </div>
+            <div class="input_grupo">
+                <div class="input_box">
+                    <input type="text" placeholder="Nombre de la entidad" required class="nombre">
+                    <i class="fa-solid fa-building-columns icono"></i>
+                </div>
+            </div>
+            <div class="input_grupo">
+                <div class="input_box">
+                    <input type="text" placeholder="Numero documento identificacion" required class="nombre">
+                    <i class="fa-solid fa-id-card icono"></i>
+                </div>
+            </div>
+            <div class="input_grupo">
+                <div class="input_box">
+                    <input type="email" placeholder="Direccion email" required class="nombre">
+                    <i class="fa-solid fa-envelope icono"></i>
+                </div>
+            </div>
+            <div class="input_grupo">
+                <div class="input_box">
+                    <input type="text" placeholder="Ubicacion" required class="nombre">
+                    <i class="fa-solid fa-location-dot icono"></i>
+                </div>
+            </div>
+
+            <div class="input_grupo">
+                <div class="input_box">
+                    <h4>Fecha de nacimiento</h4>
+                    <input type="text" placeholder="DD" required class="fn">
+                    <input type="text" placeholder="MM" required class="fn">
+                    <input type="text" placeholder="YYYY" required class="fn">
+                </div>
+            </div>
+
+            <div class="input_grupo">
+                <div class="input_box">
+                    <h4>Detalles de pago</h4>
+                    <input type="radio" name="pago" class="radio" id="b1" checked>
+                    <label for="b1"><span>
+                        <i class="fa-brands fa-cc-visa"></i> Tarjeta de credito
+                    </span></label>
+                    <input type="radio" name="pago" class="radio" id="b2" checked>
+                    <label for="b2"><span>
+                        <i class="fa-solid fa-file-contract"></i> Contrato
+                    </span></label>
+                </div>
+            </div>
+            <div class="input_grupo">
+                <div class="input_box">
+                    <input type="tel" class="nombre" placeholder="Tarjeta o contrato" required>
+                    <i class="fa-sharp fa-solid fa-id-card-clip icono"></i>
+                </div>
+            </div>
+            <div class="input_grupo">
+                <div class="input_box">
+                    <input type="tel" class="nombre" placeholder="Numero tarjeta o contrato" required>
+                    <i class="fa-solid fa-credit-card icono"></i>
+                </div>
+            </div>
+            <div class="input_grupo">
+                <div class="input_box">
+                <div class="input_box">
+                    <input type="tel" class="nombre" placeholder="Fecha inicio" required>
+                    <i class="fa-solid fa-calendar-days icono"></i>
+                </div>
+            </div>
+                <div class="input_box">
+                    <input type="tel" class="nombre" placeholder="Fecha caducidad" required>
+                    <i class="fa-solid fa-calendar icono"></i>
+                </div>
+            </div>
+            <div class="input_box">
+                <input type="number" class="nombre" placeholder="Ingrese la cantidad" required>
+                <i class="fa-sharp fa-solid fa-money-check-dollar icono"></i>
+            </div>
+            <br>
+            <div class="boton">
+                <div class="bot">
+                    <button type="submit">Pagar ahora</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
